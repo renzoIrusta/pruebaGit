@@ -1,0 +1,5 @@
+Hola, soy un texto plano.
+
+Aquí vamos a probar las funcionalidades de git.
+
+Salto de líneas porque quiero experimentar con los cambios dentro de un archivo.
