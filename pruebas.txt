@@ -4,4 +4,4 @@ Aquí vamos a probar las funcionalidades de git. Acá cambio un poco de texto.
 
 Salto de líneas porque quiero experimentar con los cambios dentro de un archivo.
 
-Agrego un nuevo cambio porque me la banco.
+Agrego un nuevo cambio porque me la banco. Sólo estas palabras.
