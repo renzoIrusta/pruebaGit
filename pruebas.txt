@@ -5,3 +5,27 @@ Aquí vamos a probar las funcionalidades de git. Acá cambio un poco de texto.
 Salto de líneas porque quiero experimentar con los cambios dentro de un archivo.
 
 Agrego un nuevo cambio porque me la banco. Sólo estas palabras.
+
+GIT:
+• git log :: ver el historial de commits.<br>
+• git log —stat :: ver el historial de commits con sus específicos cambios en bytes.<br>
+• git add . :: inserta archivos cambios al Staging.<br>
+• git add nombre-archivo :: es para subir solamente un archivo pasándole el nombre del archivo.<br>
+• git branch :: mostrar la lista de ramas y ver en cual se está trabajando actualmente.<br>
+• git show :: muestra el ultimo commit hecho.<br>
+• esc + shift + Z + Z :: comando para salir de la entrega de mensaje a un commit al ejecutar ‘git commit’ sin mensaje.<br>
+• git fetch :: descargar actualizaciones de un repositorio remoto a mi repositorio local.<br>
+• git merge :: descargar actualización de un repositorio remoto a mi directorio de trabajo.<br>
+• git pull :: descargar actualizaciones de un repositorio remoto  a mi directorio de trabajo a mi repositorio local.<br>
+• git commit -am “”mensaje :: es el add y commit juntos, (solo funciona con cambios en archivos ya subidos no con archivos nuevos).<br>
+• git merge nombre-rama :: fusionar la rama actual con la rama que se ingresó en el comando (nombre-rama).</p>
+<p>• git diff :: muestra la comparación de la data actual en comparación con lo que esta en staged.<br>
+• git diff código-referencia1 código-referencia2 :: comparar cambios entre commits insertando ambos códigos de referencia de los commits.</p>
+<p>• git checkout nombre-de-la-rama :: cambiar de una rama a otra.<br>
+• git checkout — . :: regresar al ultimo commit hecho (todos los cambios).<br>
+• git checkout codigo-referencia nombre-archivo :: regresar al commit del código que se insertó en nombre código, se puede ingresar un archivo en especifico o que haga el regreso de la data completa. (Se puede volver al futuro).</p>
+<p>• git rm —cached :: elimina los archivos del área de Staging y del próximo commit, pero los mantiene en el disco duro.<br>
+• git rm —	force :: elimina los archivos del git y del disco duro, git guarda todo, se puede acceder al registro de la existencia de los archivos, de modo que se podrán recuperar si es necesario.</p>
+<p>• git reset HEAD :: comando para sacar archivos del área de Staging.<br>
+• git reset codigo-referencia —soft :: se inserta el código del commit al que se quiere regresar y borra todo pero dejando lo que esté en memoria ram guardado.<br>
+• git reset codigo-referencia —hard :: se inserta el código del commit al que se quiere regresar y borra todo lo posterior, incluyendo lo que esté tracked en memoria ram.</p>
