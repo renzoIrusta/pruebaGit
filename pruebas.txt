@@ -9,6 +9,20 @@ Agrego un nuevo cambio porque me la banco. Sólo estas palabras.
 GIT:
 • git log :: ver el historial de commits.<br>
 • git log —stat :: ver el historial de commits con sus específicos cambios en bytes.<br>
+° git log --all :: Muestra todo el historial de los commits del proyecto, con los autores, hora específica y descripciones(en caso de tenerlas)
+° git log -(numero) :: Muestra los últimos commits según la cantidad especificada.
+°git log --stat :: Muestra los cambios específicos de cada archivo de acuerdo a los commits.
+°git log --all --graph --decorate --oneline:: Todos se pueden usar por separado con log, pero todos juntos muestran los datos ordenados. Recordar que estamos usando "arbolito para ese comando"
+
+°git alias -el alias que sea-= -El comando que sea- te genera un comando que se puede llamar con un alias.
+
+°git tag -a v0.1 -m "mensaje" 5f6c11d :: Registra un tag v0.1, un mensaje y el hash del Commit donde se va a agregar el tag.
+°git tag :: muestra lso tags existentes.
+°git show -ref --tag :: Lista los tags existentes con los commits respectivos.
+°git tag -d -Nombre del tag- :: elimina el tag del repositorio local.
+°git push origin --tags :: sube los tags al repositorio remoto.
+°git push origin :ref/tags/-nombre del tag- :: Esto borra el tag en el repositorio remoto.
+
 • git add . :: inserta archivos cambios al Staging.<br>
 • git add nombre-archivo :: es para subir solamente un archivo pasándole el nombre del archivo.<br>
 • git branch :: mostrar la lista de ramas y ver en cual se está trabajando actualmente.<br>
