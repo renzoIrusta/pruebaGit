@@ -43,3 +43,13 @@ GIT:
 <p>• git reset HEAD :: comando para sacar archivos del área de Staging.<br>
 • git reset codigo-referencia —soft :: se inserta el código del commit al que se quiere regresar y borra todo pero dejando lo que esté en memoria ram guardado.<br>
 • git reset codigo-referencia —hard :: se inserta el código del commit al que se quiere regresar y borra todo lo posterior, incluyendo lo que esté tracked en memoria ram.</p>
+
+°gitk :: abre un programa que muestra de manera visual todos los commits y las ramas de un proyecto.
+
+°git branch :: nombra todas las ramas existentes.
+°git branch -d -nombre de la rama- :: elimina la rama.
+°git branch -nombre de la rama- :: crea una rama desde la rama en la que está parada la terminal.
+°git checkout -nombre de la rama- :: dirige la terminal a la rama en la que queremos trabajar.
+°git show-branch --all :: Muestra todas las ramas exitentes y cuál es su historia.
+°git push origin -nombre de la rama- :: envía al repositorio remoto la rama que queremos enviar.
+°git pull origin -nombre de la rama-:: descarga la rama que queremos a nuestro repositorio local.
