@@ -53,3 +53,5 @@ GIT:
 °git show-branch --all :: Muestra todas las ramas exitentes y cuál es su historia.
 °git push origin -nombre de la rama- :: envía al repositorio remoto la rama que queremos enviar.
 °git pull origin -nombre de la rama-:: descarga la rama que queremos a nuestro repositorio local.
+
+una palabrita
