@@ -27,9 +27,9 @@ GIT:
 • git add nombre-archivo :: es para subir solamente un archivo pasándole el nombre del archivo.<br>
 • git branch :: mostrar la lista de ramas y ver en cual se está trabajando actualmente.<br>
 • git show :: muestra el ultimo commit hecho.<br>
-• esc + shift + Z + Z :: comando para salir de la entrega de mensaje a un commit al ejecutar ‘git commit’ sin mensaje.<br>
-• git fetch :: descargar actualizaciones de un repositorio remoto a mi repositorio local.<br>
-• git merge :: descargar actualización de un repositorio remoto a mi directorio de trabajo.<br>
+• esc + shift + Z + Z :: comando para salir de la entrega de mensaje a un commit al ejecutar ‘git commit’ sin mensaje.
+• git fetch :: descargar actualizaciones de un repositorio remoto a mi repositorio local. Pero no hace el merge en la rama desde el que se lo está descargando.
+• git merge :: descargar actualización de un repositorio remoto a mi directorio de trabajo.
 • git pull :: descargar actualizaciones de un repositorio remoto  a mi directorio de trabajo a mi repositorio local.<br>
 • git commit -am “”mensaje :: es el add y commit juntos, (solo funciona con cambios en archivos ya subidos no con archivos nuevos).<br>
 • git merge nombre-rama :: fusionar la rama actual con la rama que se ingresó en el comando (nombre-rama).</p>
@@ -50,8 +50,7 @@ GIT:
 °git branch -d -nombre de la rama- :: elimina la rama.
 °git branch -nombre de la rama- :: crea una rama desde la rama en la que está parada la terminal.
 °git checkout -nombre de la rama- :: dirige la terminal a la rama en la que queremos trabajar.
+°git checkout -b -nombre rama- :: Nos crea la rama y nos lleva a ella.
 °git show-branch --all :: Muestra todas las ramas exitentes y cuál es su historia.
 °git push origin -nombre de la rama- :: envía al repositorio remoto la rama que queremos enviar.
 °git pull origin -nombre de la rama-:: descarga la rama que queremos a nuestro repositorio local.
-
-una palabrita
